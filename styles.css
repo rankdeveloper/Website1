@@ -1,0 +1,279 @@
+
+/*Created by Rankush*/
+
+:root{
+    scroll-padding-top:80px; 
+}
+
+html{
+    scroll-behavior:smooth  
+    
+}
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+body{
+    min-height:1000px;
+    background:lightgrey;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:space-between;
+    align-itmes:center;
+    padding:20px;
+   z-index:1000;
+    transition:0.6s;
+    background-color:black;
+    width:100%;
+    
+}
+
+
+header .sticky{
+    padding:10px 100px;
+    background:#fff;
+    border-bottom:1px solid(0,0,0,.1);
+}
+
+header .logo{
+position:relative;
+font-weight:700;
+color:#fff;
+text-decoration:none;
+font-size:2em;
+transition:0.6s;
+
+    
+}
+
+header .sticky .logo{
+c
+    
+}
+
+
+header ul{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-itmes:center;
+}
+
+header ul li {
+    position:relative;
+    list-style:none;
+    display:column;
+    padding:5px 10px;
+    
+}
+
+header ul li a{
+    position:relative;
+    text-decoration:none;
+    color:#fff;
+    letter-spacing:2px;
+    font-weight:300;
+    transition:0.6s;
+    font-size:1em;
+}
+
+.banner{
+    position:relative;
+    width:100%;
+    background-size:cover;
+    min-height:100vh;
+    justify-content:center;
+    display:flex;
+   align-itmes:center; background:url(https://dl.dropbox.com/s/ehqrvfbvb4j4v6o/bg.jpg?dl=0);
+}
+
+.banner h2{
+    text-transform:uppercase;
+    font-size:90px;
+    color:#fff;
+    line-height:1em;
+    text-align:center;
+    
+}
+
+.banner h2 span{
+    color:blue;
+}
+
+
+.sec {
+    background:#fff;
+    padding:10px;
+    min-height:100vh;
+    justify-content:center;
+    align-itmes:center;
+    
+}
+
+
+.sec .content{
+    position:relative;
+    text-align:justify;
+    width:100%;
+  
+}
+
+.mxw800p{
+    max-width:800px;
+    margin:0 auto;
+}
+
+h3{
+    font-size:40px;
+    font-weight:200px;
+    margin-bottom:10px;
+    
+}
+
+p{
+    position:relative;
+    font-weight:300;
+    font-size:18px;
+    margin-bottom:20px;
+    letter-spacing:1px;
+}
+
+.btn{
+    position:relative;
+    display:inline-block;
+    padding:10px 30px;
+    background:#000;
+    text-decoration:none;
+    color:#fff;
+    
+}
+
+
+.iconBox img{
+    width:150px;
+    height:150px;
+    
+    
+    
+}
+
+
+.footer{
+    background-color:grey;
+    color:white;
+    align-itmes:center;
+    align:center;
+    font-weight:300;
+    justify-content:space-between;
+    padding:10px 20px;
+}
+
+.iconFooter{
+    display:inline-block;
+    padding:5px 80px;
+    align-itmes:center;
+}
+
+.iconFooter img{
+    width:30px;
+    height:30px;
+    align-itmes:center;
+   
+    
+}
+
+
+.span{
+
+    width:30px;
+    height:30px;
+    background-color:blue;
+    border-radius:15px;
+}
+
+
+div .form{
+    width:95%;
+    padding:30px
+    background-color:grey;
+    justify-content:space-between;
+    align-itmes:center;
+    margin:5px;
+    border-radius:10px;
+}
+
+input{
+    width:90%;
+    height:50px;
+    color:grey;
+    border-radius:5px;
+    outline:none;
+    padding-bottom:10px;
+    margin-bottom:5px;
+    font-size:1em;
+}
+
+textarea{
+    width:90%;
+    height:100px;
+    border-radius:5px;
+    outline:none;
+    padding:10px 15px 10px;
+    font-size:1em;
+}
+
+
+.form {
+    background-color:lightgrey;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+.form h3{
+    color:grey;
+    font-size:1.5em;
+}
+
+
+
+
+input[type="submit"]{
+    background-color:blue;
+    padding:5px;
+    border-radius:10px;
+    color:white;
+    font-size:1.5em;
+}
+
+
+input:focus{
+    border:2px solid green;
+}
+
+.up{
+height:50px;
+width:50px;
+border-radius:100%;
+font-size:3em;
+ background-color:grey;
+ align-itmes:center;
+ align-content:center;
+ margin-left:230px;
+ margin-bottom:-20px;
+ margin-right:-50px;
+ border:1px solid white;
+ color:white;
+}
